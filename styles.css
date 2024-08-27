@@ -1,0 +1,28 @@
+input:invalid {
+    border: 2px dashed red;
+  }
+  
+  input:invalid:required {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255)) 
+  }
+  
+  input:valid {
+    border: 2px solid rgb(255, 255, 255);
+  }
+  body {
+    background-color: rgb(42, 43, 45);
+  
+  }
+  form {
+    color: aliceblue;
+  }
+  .estilocuadr {
+    background-color: rgb(65, 85, 103);
+    color: aliceblue;
+    font-family:  Georgia, serif;
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 15px;
+    padding: 20px;
+  }
