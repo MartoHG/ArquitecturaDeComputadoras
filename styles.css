@@ -1,28 +1,68 @@
-input:invalid {
-    border: 2px dashed red;
-  }
-  
-  input:invalid:required {
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255)) 
-  }
-  
-  input:valid {
-    border: 2px solid rgb(255, 255, 255);
-  }
-  body {
-    background-color: rgb(42, 43, 45);
-  
-  }
-  form {
-    color: aliceblue;
-  }
-  .estilocuadr {
-    background-color: rgb(65, 85, 103);
-    color: aliceblue;
-    font-family:  Georgia, serif;
-    margin-top: 200px;
-    margin-left: 500px;
-    margin-right: 500px;
-    border-radius: 15px;
-    padding: 20px;
-  }
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-item h2 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.price {
+    font-size: 1rem;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
