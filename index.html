@@ -1,20 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muestreo de Productos</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Arquitectura</title>
 </head>
 <body>
-    <div class="estilocuadr"><center><h1>Arquitectura De Computadoras</h1></center>
-    <center><h2>Inicia sesión</h2></center>
-   <CENTer><form action="">
-        <P>Correo Electronico:<input type="email" id="email" required></P>
-        <P>Contraseña:<input type="password" id="password" maxlength="30" required></P>
-        <P><button>ENVIAR</button></P>
-    </form></CENTer> </div>
-    
+    <header>
+        <h1>Catálogo de Productos</h1>
+    </header>
 
+    <main>
+    <!--lista de productos-->
+        <section class="product-grid">
+            <article class="product-item">
+                <img src="https://via.placeholder.com/150" alt="Producto 1">
+                <h2>Producto 1</h2>
+                <p class="price">$10.00</p>
+                <!--redirigir a la seccion compra-->
+                <button onclick="location.href='www.google.com'">Comprar</button>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Forrajeria "El Refugio". Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
