@@ -1,3 +1,15 @@
+.titulo-animado {
+    font-size: 48px;
+    color: #FF5722;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.titulo-animado:hover {
+    transform: scale(1.1);
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,10 +18,52 @@ body {
 }
 
 header {
-    background-color: #5bd3ee;
     color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     padding: 1rem;
     text-align: center;
+}
+
+nav {
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+nav:hover {
+transform: scale(1.1);
+}
+
+a {
+color: #FF5722;
+padding: 10px;
+text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.Flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1px;
+}
+
+.Flex-container > div {
+background-color: dodgerblue;
+color: white;
+padding: 1rem;
+padding-left: 1rem;
+margin: 0 auto;
+text-align: start;
+transition: transform 0.3s;
+width: 50rem;
+}
+
+.Flex-container > div:hover {
+    transform: scale(1.1);
 }
