@@ -8,20 +8,21 @@
 .titulo-animado:hover {
     transform: scale(1.1);
 }
-
-
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6)),
+    url('https://animaliahotels.com/wp-content/uploads/campo_bianco-5.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;   
 }
-
-header {
+header {    
     color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
-    padding: 1rem;
+    padding: 20px;
+    background-color: rgba(34, 139, 34, 0.7);
     text-align: center;
 }
 
@@ -37,6 +38,8 @@ transform: scale(1.1);
 a {
 color: #FF5722;
 padding: 10px;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: black;
 text-decoration: none;
 }
 
