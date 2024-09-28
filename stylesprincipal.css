@@ -120,3 +120,13 @@ footer {
     margin: 0;
     text-align: left; 
 }
+
+a.div-link {
+    text-decoration: none; 
+    color: inherit; 
+    display: block; 
+}
+
+a.div-link:hover {
+    text-decoration: none; 
+}
